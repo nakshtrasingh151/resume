@@ -71,6 +71,11 @@ body{
     font-size: 22px;
     color: teal;
 }
+@media (max-width: 575.98px){
+    .font1{
+        font-size: 18px;
+    }
+}
 
 .edu-col{
     padding: 15px 15px 25px 0px;
@@ -98,3 +103,28 @@ body{
 #social_icon .fa:hover{
     text-decoration: none;
 }
+
+.exp-img{
+    width:80%;
+    height: 80%;
+    margin-left: 10%;
+}
+
+@media (max-width: 575.98px) { 
+    .exp-img{
+        width: 30%;
+        height: 30%;
+        justify-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .col-sm{
+        width: 100%;
+        text-align: center;
+        height: 30%;
+        font-size: 12px;
+    }
+    .col-sm h5{
+        font-size: 16px;
+    }
+ }
